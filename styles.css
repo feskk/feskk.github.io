@@ -251,26 +251,31 @@ h3 {
         font-size: 1.8em;
     }
 
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
     .profile-image {
         width: 150px;
         height: 150px;
     }
 
     .experience-item, .award-item {
-        width: 95%;
+        width: 100%;
         margin-bottom: 15px;
         padding: 10px;
         height: auto;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 
     .company-logo {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
 
     .award-logo {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .experience-details, .award-details {
@@ -278,17 +283,26 @@ h3 {
     }
 
     .experience-details h4 {
-        font-size: 1em;
-        margin-bottom: 3px;
+        font-size: 0.9em;
+        margin-bottom: 2px;
     }
 
     .experience-details p {
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin-bottom: 5px;
     }
 
     .watch-project {
-        font-size: 0.75em;
+        font-size: 0.7em;
+    }
+
+    .award-item {
+        padding: 10px;
+        height: auto;
+    }
+
+    .award-details h4 {
+        font-size: 0.9em;
     }
 
     nav ul li {
